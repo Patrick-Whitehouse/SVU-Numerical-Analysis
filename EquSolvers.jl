@@ -15,17 +15,22 @@ function MC_log(x; N = 1000)
 end
 
 
+#Bisection method
+
 function hal(Dave)
     println("I can't do that, $Dave.")
 end
 
-## Bisection method
+#Fixed point iterations
+
+
+#Newtons Method
 
 """
-Bisection method
-by Jared McBride (Feb 7, 2024)
+Newton's method
+by Patrick Whitehouse (Feb 21, 2024)
 
-An implementation of the bisection method [Numerical Analysis 9e, Burden, Sec 2.1].
+An implementation of Newton's method [Numerical Analysis 9e, Burden, Sec 2.1].
 
 """
 function bisect_method(f,a,b; maxit = 50, tol = 1e-10)
